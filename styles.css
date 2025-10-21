@@ -1,0 +1,56 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.header
+{
+    background-color: grey
+}
+
+.hold
+{
+    display:flex;
+    justify-content: space-between;
+}
+
+li
+{
+    display: flex;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subcontainer
+{
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.subtext
+{
+    border: blue;
+}
+
+.thor
+{
+    background-color: rgb(187, 187, 187);
+}
+
+.ctatainer
+{
+    background-color: rgb(115, 115, 254);
+}
+
+
+.footer
+{
+    background-color: rgb(88, 87, 87);
+    margin-top: auto;
+}
