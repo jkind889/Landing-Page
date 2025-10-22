@@ -63,16 +63,21 @@ ul
 
 .box
 {
-    background-color: black;
-    width:200px;
-    height: 100px;
+    background-color: rgb(255, 255, 255);
+    width:100px;
+    height: 105px;
+    border-radius: 10px;
+    border: 2px solid blue;
 }
 
 
 .subcontainer
 {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
     margin-bottom: 10px;
     /* width: 100px; */
     /* height: 100px; */
@@ -117,6 +122,12 @@ ul
     
 }
 
+.column
+{
+    display: flex;
+    gap:20px;w
+    /* justify-content: space-between; */
+}
 
 .footer
 {
