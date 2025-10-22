@@ -18,7 +18,7 @@ body
 
 
 
-h2
+h2,h3
 {
     margin: 0;
 }
@@ -92,45 +92,64 @@ ul
 
 .thor
 {
-    background-color: rgb(187, 187, 187);
+    background-color: rgb(225, 224, 224);
     width: auto;
-    height: 200px;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction:column;
+    padding: 80px 80px 80px 80px;
+    height: 100px;
+    margin-bottom: 50px;
+
 
 }
 .subthor
 {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    font-size:30px;
 }
 
 .subthor2
 {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    text-align: right;
 }
 
 .ctatainer
 {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: rgb(115, 115, 254);
+    height:100px;
+    width: auto;
+    margin:50px;
+    border-radius: 10px;
     
 }
 
+.cta
+{
+    padding:20px;
+}
+
+.signup
+{
+    margin: 20px;
+    width: 100px;
+    height:30px;
+    border-radius: 10px
+}
 .column
 {
     display: flex;
-    gap:20px;w
+    gap:20px;
     /* justify-content: space-between; */
 }
 
 .footer
-{
+{   
+    height:50px;
+    text-align: center;
     background-color: rgb(88, 87, 87);
     margin-top: auto;
 }
