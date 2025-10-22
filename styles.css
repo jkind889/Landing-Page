@@ -3,36 +3,81 @@ body
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    margin: 0px;
 }
 
 .header
 {
-    background-color: grey
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    background-color: grey;
+    margin-bottom: 10px;
+    padding: 0 80px 80px 80px;
+}
+
+
+
+h2
+{
+    margin: 0;
 }
 
 .hold
 {
     display:flex;
     justify-content: space-between;
-}
 
-li
-{
-    display: flex;
 }
-
 .container
 {
-    display: flex;
+    display:flex;
     justify-content: space-between;
+    /* align-items: flex-end; */
 }
+
+.shcontainer p
+{
+    font-size: 20px;
+}
+
+p
+{
+    margin: 0;
+}
+
+ul
+{
+    display: flex;
+    margin:0;
+    padding: 0;
+    gap:20px;
+}
+.ibox
+{
+    background-color: black;
+    width: 500px;
+    /* align-self: flex-end; */
+    /* height: 200px; */
+}
+
+.box
+{
+    background-color: black;
+    width:200px;
+    height: 100px;
+}
+
 
 .subcontainer
 {
     display: flex;
-    width: 100px;
-    height: 100px;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    /* width: 100px; */
+    /* height: 100px; */
 }
+
 
 .subtext
 {   
@@ -44,7 +89,24 @@ li
 {
     background-color: rgb(187, 187, 187);
     width: auto;
-    height: 200px
+    height: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction:column;
+
+}
+.subthor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subthor2
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .ctatainer
